@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech Pulse - Login">
+
+    <title>Tech Pulse - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+
+<body data-theme="dark">
+
+    <header class="cabecalho">
+
+        <section class="topo-menu">  <!-- Menu Superior -->
+
+            <div class="contato-info">  <!-- Contato (Esquerda) -->
+                <a href="mailto:contato@techpulse.com.br" class="info-item">
+                    <span class="icone" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M4 6h16a2 2 0 0 1 2 2v.35l-10 6.25L2 8.35V8a2 2 0 0 1 2-2Zm18 4.72V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.28l9.47 5.92a1 1 0 0 0 1.06 0L22 10.72Z"/>
+                        </svg>
+                    </span>
+                    <span>contato@techpulse.com.br</span>
+                </a>
+                <div class="info-item">
+                    <span class="icone" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M12 2a7 7 0 0 1 7 7c0 4.88-5.08 10.73-6.22 11.98a1 1 0 0 1-1.56 0C10.08 19.73 5 13.88 5 9a7 7 0 0 1 7-7Zm0 9.5A2.5 2.5 0 1 0 12 6.5a2.5 2.5 0 0 0 0 5Z"/>
+                        </svg>
+                    </span>
+                    <span>São Paulo | Brasil</span>
+                </div>
+                <a href="tel:+5511972904309" class="info-item">
+                    <span class="icone" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M6.62 10.79a15.91 15.91 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1-.24c1.12.37 2.31.56 3.59.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.28.19 2.47.56 3.59a1 1 0 0 1-.24 1l-2.2 2.2Z"/>
+                        </svg>
+                    </span>
+                    <span>+55 11 97290-4309</span>
+                </a>
+            </div>
+
+            <div class="links-social">  <!-- Contato (Direita) -->
+                <a href="https://www.instagram.com/techpulseofc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Tech Pulse">
+                    <span class="icone-social" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2.5A2.5 2.5 0 0 0 4.5 7v10A2.5 2.5 0 0 0 7 19.5h10a2.5 2.5 0 0 0 2.5-2.5V7A2.5 2.5 0 0 0 17 4.5H7Zm10.75 1.5a.75.75 0 1 1-.75.75.75.75 0 0 1 .75-.75ZM12 7a5 5 0 1 1-5 5 5 5 0 0 1 5-5Zm0 2.5a2.5 2.5 0 1 0 2.5 2.5A2.5 2.5 0 0 0 12 9.5Z"/>
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://www.facebook.com/people/TECH-PULSE/61556918090711/" target="_blank" rel="noopener noreferrer" aria-label="Facebook da Tech Pulse">
+                    <span class="icone-social" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.08c0-.87.24-1.46 1.5-1.46H16.7V4.94A22.4 22.4 0 0 0 14.17 4C11.67 4 10 5.52 10 8.3V11H7v3h3v8h3.5Z"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="menu-navegacao"> <!-- Menu de Navegação -->
+
+            <div class="logo">
+                <a href="#inicio" aria-label="Voltar ao início">
+                    <img
+                        id="logo-tech-pulse"
+                        src="assets/techpulse/logo04.png"
+                        alt="Logo da Tech Pulse"
+                        data-logo-dark="assets/techpulse/logo04.png"
+                        data-logo-light="assets/techpulse/logo2.png">
+                </a>
+            </div>
+
+            <div class="menu-acoes">
+                <button class="theme-toggle" type="button" aria-label="Alternar para modo claro" aria-pressed="false">
+                    <span class="theme-toggle-icone" aria-hidden="true">☀</span>
+                    <span class="theme-toggle-texto">Light</span>
+                </button>
+                <a href="https://wa.me/5511972904309" class="botao-whatsapp" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+                <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-dropdown">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <nav class="nav-menu" id="menu-dropdown">
+                <ul>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="https://techpulse.com.br/" target="_blank" rel="noopener noreferrer">Site oficial</a></li>
+                </ul>
+            </nav>
+
+        </section> 
+
+    </header>
+
+    <main class="conteudo-principal" id="inicio">
+
+        <section class="formulario" id="login">  <!-- Formulário de Login -->
+
+            <form class="formulario-login" id="form-login">
+                <p class="tag-formulario">Acesso seguro</p>
+                <h1>Tech Pulse</h1>
+                <p class="texto-formulario">Gerencie operações, acompanhe resultados e centralize informações em um só painel.</p>
+
+                <label for="email">E-mail corporativo</label>
+                <input type="email" name="email" id="email" placeholder="contato@techpulse.com.br">
+
+                <label for="senha">Senha de acesso</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+
+                <button type="submit" id="botao-submit">
+                    Entrar no sistema
+                </button>
+
+                <div class="links-formulario" aria-label="Ações auxiliares do formulário">
+                    <a href="#" class="link-formulario" id="link-cadastro">Cadastre-se</a>
+                    <a href="#" class="link-formulario" id="link-recuperar-senha">Esqueceu sua senha?</a>
+                </div>
+
+                <p class="texto-apoio">Ambiente demonstrativo para acesso ao sistema de gestão da empresa.</p>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer class="rodape">  <!-- Rodapé -->
+        <p class="paragrafo-footer">2026 &copy; Tech Pulse. Soluções digitais com identidade, tecnologia e resultado.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
