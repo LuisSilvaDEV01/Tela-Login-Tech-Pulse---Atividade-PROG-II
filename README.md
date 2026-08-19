@@ -48,4 +48,5 @@ Basta abrir o arquivo `index.html` no navegador.
 ## Autor
 
 Desenvolvido por **Luís Silva**
+
 **Curso de Sistemas de Informação - Universidade Estadual de Montes Claros**
